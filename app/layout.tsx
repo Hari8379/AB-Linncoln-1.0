@@ -11,7 +11,7 @@ const pacifico = Pacifico({
 })
 
 export const metadata: Metadata = {
-  title: "AB Lincoln|Consulting Service",
+  title: "Management Consulting Company | A B Lincoln & Company",
   description: "AB lincoln test"
 };
 

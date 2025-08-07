@@ -5,33 +5,38 @@ export default function ServicesSection() {
   const services = [
     {
       icon: 'ri-code-s-slash-line',
-      title: 'Custom Software Development',
-      description: 'Tailored software solutions built to meet your specific business requirements and goals.'
+      title: 'Organization Restructure',
+      description: 'We realign your business structure to improve clarity, accountability, and efficiency. Build a scalable organization with defined roles and lean reporting systems.'
     },
     {
       icon: 'ri-smartphone-line',
-      title: 'Mobile App Development',
-      description: 'Native and cross-platform mobile applications that deliver exceptional user experiences.'
+      title: 'Roles & Responsibilities',
+      description: 'We define clear job roles, responsibilities, and ownership across your team. Eliminate confusion, boost accountability, and improve team performance.'
     },
     {
       icon: 'ri-cloud-line',
-      title: 'Cloud Solutions',
-      description: 'Scalable cloud infrastructure and migration services to optimize your business operations.'
+      title: 'SWOT & GAP Analysis',
+      description: 'We assess your business strengths, weaknesses, opportunities, and threats while identifying critical performance gaps. This forms the foundation for strategic improvements and focused growth.'
     },
     {
       icon: 'ri-database-2-line',
-      title: 'Data Analytics',
-      description: 'Transform your data into actionable insights with our advanced analytics and BI solutions.'
+      title: 'KPI (Key Performance Indicators)',
+      description: 'We define measurable KPIs aligned with your business goals to track progress, improve accountability, and drive consistent performance across teams.'
     },
     {
       icon: 'ri-shield-check-line',
-      title: 'Cybersecurity',
-      description: 'Comprehensive security solutions to protect your business from evolving cyber threats.'
+      title: 'SOP (Standard Operating Procedures)',
+      description: 'We create clear, customized SOPs that streamline operations, reduce errors, and ensure consistency—so your business runs smoothly, even without you.'
     },
     {
       icon: 'ri-settings-3-line',
-      title: 'IT Consulting',
-      description: 'Strategic technology consulting to align your IT infrastructure with business objectives.'
+      title: 'Need Analysis',
+      description: 'We deep-dive into your business to identify real challenges, operational gaps, and growth opportunities—setting the stage for effective consulting and lasting results.'
+    },
+    {
+      icon: 'ri-settings-3-line',
+      title: 'Exclusive Growth Consulting',
+      description: "We design actionable strategies to accelerate business growth, streamline operations, and unlock your organization's full potential—backed by data, systems, and structured execution."
     }
   ];
 
@@ -43,7 +48,7 @@ export default function ServicesSection() {
             Why Choose Our Services
           </h2>
           <p className="text-xl font-avenir font-book text-gray-600 max-w-3xl mx-auto">
-            We provide comprehensive technology solutions designed to accelerate your business growth and digital transformation journey.
+            At A B Lincoln & Company, we help you build a business that’s structured, self-sustaining, and scalable — so you can lead with clarity, not chaos.
           </p>
         </div>
 

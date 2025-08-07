@@ -8,18 +8,17 @@ export default function Footer() {
 
   const footerLinks = {
     services: [
-      'Web Development',
-      'Mobile Apps',
-      'Cloud Solutions',
-      'Data Analytics',
-      'Cybersecurity',
-      'IT Consulting'
+      'Organization Restructure',
+      'Roles & Responsibilities',
+      'SWOT & GAP Analysis',
+      'KPI',
+      'SOP',
+      'Need Analysis',
+      'Exclusive Growth Consulting'
     ],
     company: [
       'About Us',
-      'Our Team',
       'Careers',
-      'Case Studies',
       'News & Blog',
       'Contact'
     ],
@@ -50,7 +49,7 @@ export default function Footer() {
               AB Lincoln <br></br> & Company
             </Link>
             <p className="font-avenir font-book text-[#c9d4e9] mb-6 leading-relaxed max-w-md">
-              Transforming businesses through innovative technology solutions. We're your trusted partner for digital transformation and growth.
+              Your consulting partner in setting up management systems that make your business run — even when you’re not there — and ready for growth.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-[#3a4587] text-[#c9d4e9] rounded-full flex items-center justify-center hover:bg-[#6fa8dc] hover:text-white transition-colors cursor-pointer">
@@ -69,6 +68,9 @@ export default function Footer() {
                 <i className="ri-youtube-fill"></i>
               </a>
             </div>
+            <p className="font-avenir font-book text-[#c9d4e9] mb-6 leading-relaxed max-w-md mt-6">
+              As provider of management consultancy services we deliver our services according to ISO 20700:2017
+            </p>
           </div>
 
           <div>
@@ -76,7 +78,7 @@ export default function Footer() {
             <ul className="space-y-3">
               {footerLinks.services.map((link, index) => (
                 <li key={index}>
-                  <a href="#" className="font-avenir font-book text-[#c9d4e9] hover:text-[#6fa8dc] transition-colors cursor-pointer">
+                  <a className="font-avenir font-book text-[#c9d4e9] hover:text-[#6fa8dc] transition-colors cursor-pointer">
                     {link}
                   </a>
                 </li>

@@ -64,10 +64,10 @@ export default function NewsSection() {
                   {article.excerpt}
                 </p>
                 
-                <div className="flex items-center text-[#202b5e] font-avenir font-heavy hover:text-[#3a4587] transition-colors">
+                <Link href={`/blogscontent/${index}`} className="flex items-center text-[#202b5e] font-avenir font-heavy hover:text-[#3a4587] transition-colors">
                   <span>Read More</span>
                   <i className="ri-arrow-right-line ml-2 group-hover:translate-x-1 transition-transform"></i>
-                </div>
+                </Link>
               </div>
             </article>
           ))}

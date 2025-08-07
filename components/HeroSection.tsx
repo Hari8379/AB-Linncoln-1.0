@@ -24,11 +24,14 @@ export default function HeroSection() {
         <div className="w-full grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <h1 className="text-5xl lg:text-6xl font-freight font-medium text-gray-900 leading-tight">
-              Transforming Business
-              <span className="text-[#202b5e] block">Through Innovation</span>
+              Transforming Business<br />
+              <span className="text-[#202b5e] text-bold-400">Through Management Systems.</span>
             </h1>
             <p className="text-xl font-avenir font-book text-gray-600 max-w-2xl">
-              We help businesses leverage cutting-edge technology to drive growth, improve efficiency, and create exceptional customer experiences.
+              Your consulting partner in setting up management systems that make your business run — even when you’re not there — and ready for growth.<br />
+              As provider of management consultancy services we deliver our services according to ISO 20700:2017            
+            </p>
+            <p className="text-lg font-avenir font-book text-gray-600 max-w-2xl">
             </p>
 
             <div className="grid grid-cols-3 gap-6 pt-8 animate-fade-in-up delay-800">

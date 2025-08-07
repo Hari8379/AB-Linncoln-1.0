@@ -54,7 +54,8 @@ export default function ContactSection() {
             Get In Touch
           </h2>
           <p className="text-xl font-avenir font-book text-gray-600 max-w-3xl mx-auto">
-            Ready to transform your business? Contact us today to discuss your project requirements and discover how we can help you achieve your goals.
+            <span className="text-3xl lg:text-3xl font-freight font-medium text-gray-900 mb-6">Ready to transform your business?</span> <br/>
+            Let’s build systems that scale. Reach out today to discuss your challenges, explore solutions, and see how A B Lincoln & Company can help you unlock structured growth.
           </p>
         </div>
 
@@ -69,7 +70,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-lg font-freight font-medium text-gray-900 mb-2">Our Office</h4>
-                  <p className="font-avenir font-book text-gray-600">Reliquix Pvt. Ltd.<br />18 B, South Raja Street,<br />Thoothukudi - 628001,<br />Tamil Nadu, India.</p>
+                  <p className="font-avenir font-book text-gray-600">Head Office<br/>A B Lincoln & Company<br />Reliquix Pvt. Ltd.<br />18 B, South Raja Street,<br />Thoothukudi - 628001,<br />Tamil Nadu, India.</p>
                 </div>
               </div>
 
@@ -78,8 +79,8 @@ export default function ContactSection() {
                   <i className="ri-phone-line text-[#202b5e] text-xl"></i>
                 </div>
                 <div>
-                  <h4 className="text-lg font-freight font-medium text-gray-900 mb-2">Phone Numbers</h4>
-                  <p className="font-avenir font-book text-gray-600">+91 8883678909</p>
+                  <h4 className="text-lg font-freight font-medium text-gray-900 mb-2">Mobile Numbers</h4>
+                  <p className="font-avenir font-book text-gray-600">+91 81221 47405</p>
                 </div>
               </div>
 
@@ -92,6 +93,16 @@ export default function ContactSection() {
                   <p className="font-avenir font-book text-gray-600">info@ablincolnco.com</p>
                 </div>
               </div>
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-[#6fa8dc]/20 rounded-full flex items-center justify-center mt-1">
+                  <i className="ri-phone-line text-[#202b5e] text-xl"></i>
+                </div>
+                <div>
+                  <h4 className="text-lg font-freight font-medium text-gray-900 mb-2">Phone Numbers</h4>
+                  <p className="font-avenir font-book text-gray-600">+91 8883678909</p>
+                </div>
+              </div>
+              
 
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-[#6fa8dc]/20 rounded-full flex items-center justify-center mt-1">
@@ -99,7 +110,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-lg font-freight font-medium text-gray-900 mb-2">Business Hours</h4>
-                  <p className="font-avenir font-book text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 10:00 AM - 4:00 PM<br />Sunday: Closed</p>
+                  <p className="font-avenir font-book text-gray-600">Monday - Saturday: 9:30 AM - 6:30 PM</p>
                 </div>
               </div>
             </div>
@@ -138,7 +149,7 @@ export default function ContactSection() {
 
               <div className="grid md:grid-cols-2 gap-6 mb-6">
                 <div>
-                  <label className="block text-sm font-avenir font-medium text-gray-700 mb-2">Phone Number</label>
+                  <label className="block text-sm font-avenir font-medium text-gray-700 mb-2">Phone Number *</label>
                   <input
                     type="tel"
                     name="phone"
@@ -149,7 +160,7 @@ export default function ContactSection() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-avenir font-medium text-gray-700 mb-2">Company</label>
+                  <label className="block text-sm font-avenir font-medium text-gray-700 mb-2">Company *</label>
                   <input
                     type="text"
                     name="company"
@@ -162,7 +173,7 @@ export default function ContactSection() {
               </div>
 
               <div className="mb-6">
-                <label className="block text-sm font-avenir font-medium text-gray-700 mb-2">Service Interested In</label>
+                <label className="block text-sm font-avenir font-medium text-gray-700 mb-2">Service Interested In *</label>
                 <div className="relative">
                   <select
                     name="service"
@@ -172,12 +183,11 @@ export default function ContactSection() {
                     suppressHydrationWarning={true}
                   >
                     <option value="">Select a service</option>
-                    <option value="web-development">Web Development</option>
-                    <option value="mobile-apps">Mobile App Development</option>
-                    <option value="cloud-solutions">Cloud Solutions</option>
-                    <option value="data-analytics">Data Analytics</option>
-                    <option value="cybersecurity">Cybersecurity</option>
-                    <option value="consulting">IT Consulting</option>
+                    <option value="web-development">Manufacturing</option>
+                    <option value="mobile-apps">Service</option>
+                    <option value="cloud-solutions">Trading</option>
+                    <option value="data-analytics">Export / Import</option>
+                    <option value="cybersecurity">Retail</option>
                   </select>
                   <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
                     <i className="ri-arrow-down-s-line text-gray-400"></i>
