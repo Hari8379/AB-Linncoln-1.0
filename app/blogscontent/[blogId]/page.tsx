@@ -1,16 +1,24 @@
+// app/blogscontent/[blogId]/page.tsx
+
 import BlogsContentSection from '../../NewPages/BlogsContentSection';
 
-export default function Page({ params }: { params: { blogId: string } }) {
+interface PageProps {
+  params: {
+    blogId: string;
+  };
+}
+
+export default function Page({ params }: PageProps) {
   return <BlogsContentSection blogId={params.blogId} />;
 }
 
-// ✅ Fix: Only return array of params here
+// ✅ Must return plain objects, not JSX!
 export function generateStaticParams() {
   return [
-    { blogId: "0" },
-    { blogId: "1" },
-    { blogId: "2" },
-    { blogId: "3" },
-    { blogId: "4" },
+    { blogId: '0' },
+    { blogId: '1' },
+    { blogId: '2' },
+    { blogId: '3' },
+    { blogId: '4' },
   ];
 }
