@@ -1,21 +1,16 @@
 import BlogsContentSection from '../../NewPages/BlogsContentSection';
 
-interface PageProps {
-  params: {
-    blogId: string;
-  };
-}
-
-export default function Page({ params }: PageProps) {
+export default function Page({ params }: { params: { blogId: string } }) {
   return <BlogsContentSection blogId={params.blogId} />;
 }
 
+// ✅ Fix: Only return array of params here
 export function generateStaticParams() {
   return [
     { blogId: "0" },
     { blogId: "1" },
     { blogId: "2" },
     { blogId: "3" },
-    { blogId: "4" }
+    { blogId: "4" },
   ];
 }
